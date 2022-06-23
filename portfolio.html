@@ -8,24 +8,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-       
+<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
  <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
+      <div class="container">
         <header class="page-header">
           <a href="./index.html" class="logo-header" lang="en"
           ><span class="web-logo">Web</span>Studio</a
         >
           <nav>
-            <ul>
-              <li><a href="./index.html" class="link-2">Студия</a></li>
-              <li><a href="#" class="resume-2">Портфолио</a></li>
-              <li><a href="#" class="contact">Контакти</a></li>
+            <ul class="menu">
+              <li class="menu-item"><a href="./index.html" class="link-2">Студия</a></li>
+              <li class="menu-item"><a href="#" class="resume-2">Портфолио</a></li>
+              <li class="menu-item"><a href="#" class="contact">Контакти</a></li>
             </ul>
           </nav>
-          <ul>
-            <li><a href="#" class="email">info@devstudio.com</a></li>
-            <li><a href="#" class="number">+38 096 111 11 11</a></li>
+          <ul class="nav-second-list">
+            <li class="nav-second-list-item"><a href="#" class="email"> info@devstudio.com</a></li>
+            <li class="nav-second-list-item"><a href="#" class="number"> +38 096 111 11 11</a></li>
           </ul>
         </header>
 
@@ -34,16 +35,16 @@
          
             <h2></h2>
             <ul class="nav-port">
-              <li><button type="button" class="all-button">Все</button></li>
-              <li><button type="button" class="list-port">Веб-сайты</a></li>
-              <li><button type="button" class="list-port">Приложения</a></li>
-              <li><button type="button" class="list-port">Дизайн</a></li>
-              <li><button type="button" class="list-port">Маркетинг</a></li>
+              <li class="nav-port-item"><button type="button" class="all-button">Все</button></li>
+              <li class="nav-port-item"><button type="button" class="list-port">Веб-сайты</a></li>
+              <li class="nav-port-item"><button type="button" class="list-port">Приложения</a></li>
+              <li class="nav-port-item"><button type="button" class="list-port">Дизайн</a></li>
+              <li class="nav-port-item"><button type="button" class="list-port">Маркетинг</a></li>
             </ul>
          
          
             <h3></h3>
-              <ul>
+              <ul class="offers">
                 <li><img src="./images/img7.jpg" width="370" height="294"  alt="Технокряк">
                 <h3 class="features-title-2">Технокряк</h3><p class="features-list-2">Веб-сайт</p></li>
                 <li><img src="./images/img8.jpg" width="370" height="294" alt="Постер New Orlean vs Golden Star"><h3 class="features-title-2">Постер New Orlean vs Golden Star</h3><p class="features-list-2">Дизайн</p></li>
@@ -74,6 +75,7 @@
               </address>
             </address>
           </footer>
+      </div>
 
         
     </body>
