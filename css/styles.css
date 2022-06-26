@@ -22,6 +22,7 @@ img {
     display: flex;
     align-items: center;
     padding: 10px; 
+    border-bottom: 1px solid #ECECEC ;
 
     
 }
@@ -86,8 +87,6 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    padding-top: 94px;
-        padding-bottom: 94px;
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
@@ -255,7 +254,7 @@ p.features-list {
   margin: 0;
 }
 .offers {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -263,10 +262,20 @@ p.features-list {
     margin-top: 50px;
     margin-bottom: 94px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .offers-item {
+display: block;
+margin: 0;
+padding: 0;
+width: 370px;
+
+}
+.offers-borders {
+    box-sizing: border-box;
     width: 370px;
+    border: 1px solid #eee;
 }
 
 
