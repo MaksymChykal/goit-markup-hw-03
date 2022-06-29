@@ -16,14 +16,15 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 .page-header {
     background-color:  #fff;
-    width: 1200px;
-    display: flex;
-    align-items: center;
+    border-bottom: 1px solid #ECECEC;
     padding: 10px; 
     justify-content: space-around;
-    padding: 24px 0;
+    width: 1200px;
+    margin: 0 auto;
+    
 }
 .logo-header {
     color: #000;
@@ -82,14 +83,13 @@ img {
     background-color:  #fff;
     width: 1200px;
     display: flex;
-    background-color:  #fff;
-    width: 1200px;
-    display: flex;
     align-items: center;
-    padding: 10px; 
-    border-bottom: 1px solid #ECECEC ;
     justify-content: space-around;
-    padding: 24px 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 24px 0;
+
     
     
 }
@@ -100,10 +100,6 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-     padding-right: 15px;
 
   }
 
@@ -113,19 +109,21 @@ body {
   html{
     box-sizing: border-box;
   }
-.section-1 {
-background-color: #2F303A;
-color: var(--primary-text-color);
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: 900;
-width: 1200px;
-height: 600px;
-text-transform: uppercase;
-text-align: center;
-}
+
+    .section-1 {
+        background-color: #2F303A;
+        color: var(--primary-text-color);
+        font-family: 'Roboto' sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        height: 600px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
 .first-section{
     text-align: center;
+    padding-top: 200px;
 }
 .title {
     display: block;
@@ -136,8 +134,7 @@ text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin: 0 auto;
 }
 .we-do {
     font-family: 'Roboto';
@@ -194,7 +191,14 @@ margin-bottom: 50px;
 }
 .our-team {
     background-color: #F5F4FA;
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.our-team-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .staff-list {
     font-family: 'Roboto';
@@ -218,18 +222,25 @@ margin-bottom: 50px;
     color: #757575;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 30px;
+    padding-bottom:  30px;
+    padding-top: 10px;
 
 }
 .features-flex {
-    width: 1200px;
     display: flex;
     flex-direction: row;
     background: #fff;
-    padding: 94px;
     text-align: center;
     column-gap: 30px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
+}
+.features-flex-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .features-title {
     font-family: 'Roboto';
@@ -278,10 +289,8 @@ p.features-list {
 .features-item {
     display: flex;
     text-align: center;
-    padding-left: 0;
     column-gap: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+
 }
 .features-item :last-child {
     margin-right: 0;
@@ -298,25 +307,20 @@ p.features-list {
 
 }
 .container-border {
-    width: 1200px;
     color: var(--link-seconary-color);
     background: #FFFFFF;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  padding: 0px 30 px 94px;
-  /* min-width: 370px; */
-  border-radius: 0px 0px 4px 4px;
-  margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 0px 30 px 94px;
+    /* min-width: 370px; */
+    width: 1200px;
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 auto;
 }
 .offers {
-   /* padding-left: 15px;
-    padding-right: 15px;*/
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 94px;
     display: flex;
@@ -324,7 +328,7 @@ p.features-list {
     align-items: center;
     flex-wrap: wrap;
     column-gap: 30px;
-    padding: 0 30px;
+    padding-left: 0;
 
 }
 .offers-item {
@@ -337,7 +341,11 @@ background: #FFFFFF;
 border-bottom: 1px solid #eee;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
 margin-bottom: 30px;
-
+}
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .offers-borders {
     box-sizing: border-box;
@@ -349,8 +357,7 @@ margin-bottom: 30px;
 .main-footer {
     background-color:  #2F303A;
     display: flex;
-    padding: 60px 30px;
-    column-gap: 70px;
+    padding: 60px 0px;
 }
 .second-footer {
     width: 1200px;
@@ -596,6 +603,8 @@ color: black;
 .footer-web-logo {
     display: flex;
     flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
@@ -609,7 +618,7 @@ color: black;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.first-section {
+/*.first-section {
     text-transform: uppercase;
     text-align: center;
     display: flex;
@@ -619,4 +628,4 @@ color: black;
     position: relative;
     padding-top: 200px;
     padding-bottom: 280px;
-}
+}*/
