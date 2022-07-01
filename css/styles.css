@@ -76,6 +76,7 @@ address {
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
+    margin-right: 331px;
 }
  .menu-item {
     display: block;
@@ -89,6 +90,7 @@ address {
     flex-direction: row;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
   }
   .nav-second-list-item {
     display: flex;
@@ -334,6 +336,9 @@ p.features-list {
     margin-bottom: 0;
 
 }
+.features-item-list {
+    width: 270px;
+}
 .features-item :last-child {
     margin-right: 0;
 }
@@ -370,6 +375,9 @@ background: #FFFFFF;
 border: 1px solid #eeeeee;
 margin-bottom: 30px;
 }
+.offers-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -385,7 +393,7 @@ margin-bottom: 30px;
 .main-footer {
     background-color:  #2F303A;
     display: flex;
-    padding: 60px 0px;
+    padding: 94px 0px;
 }
 .second-footer {
     width: 1200px;
@@ -650,6 +658,8 @@ color: black;
     flex-direction: column;
     width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .visually-hidden {
     position: absolute;
