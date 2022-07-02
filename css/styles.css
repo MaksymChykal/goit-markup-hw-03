@@ -189,6 +189,7 @@ body {
     margin-top: 0;
     margin-bottom: 50px;
 }
+
 .staff-title {
     font-family: 'Roboto';
 font-style: normal;
@@ -217,6 +218,7 @@ margin-bottom: 50px;
     padding-bottom: 30px;
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 .imgclass {
     display: flex;
@@ -228,6 +230,8 @@ margin-bottom: 50px;
     justify-content: space-between;
     padding-left: 0;
     column-gap: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .our-team {
     background-color: #F5F4FA;
@@ -240,6 +244,10 @@ margin-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
 }
+.our-team-list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .staff-list {
     font-family: 'Roboto';
     font-style: normal;
@@ -250,7 +258,7 @@ margin-bottom: 50px;
     color: #212121;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 30px;
+ 
 }
 .staff-position {
     font-family: 'Roboto';
@@ -260,10 +268,10 @@ margin-bottom: 50px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
-    
-    padding-top: 10px;
+
+
 
 }
 .features-flex {
@@ -273,7 +281,6 @@ margin-bottom: 50px;
     text-align: center;
     column-gap: 30px;
     padding-top: 94px;
-    padding-bottom: 94px;
     
 }
 .features-flex-container {
@@ -356,9 +363,7 @@ p.features-list {
 
 .offers {
     margin-top: 50px;
-    margin-bottom: 94px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     column-gap: 30px;
@@ -366,13 +371,11 @@ p.features-list {
 
 }
 .offers-item {
-display: block;
+
 margin: 0;
 padding: 0;
-max-width: 30.33%;
-flex: 0 0 33.33%;
+max-width: 370px;
 background: #FFFFFF;
-border: 1px solid #eeeeee;
 margin-bottom: 30px;
 }
 .offers-item:nth-last-child(-n + 3) {
@@ -384,8 +387,8 @@ margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.offers-borders {
-        border: 1px solid #eeeeee;
+.offers-border {
+        border: 1px  solid #eeeeee;
         padding: 20px 24px;
 }
 
@@ -393,7 +396,7 @@ margin-bottom: 30px;
 .main-footer {
     background-color:  #2F303A;
     display: flex;
-    padding: 94px 0px;
+    padding: 60px 0px;
 }
 .second-footer {
     width: 1200px;
